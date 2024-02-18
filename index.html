@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Portfolio</title>
+<style>
+    /* Basic styling */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        justify-content: center;
+    }
+    .project {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <h1>User Portfolio</h1>
+    <div class="portfolio">
+        <!-- Dummy data for user's portfolio -->
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Skills: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Skills: Python, Django</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Skills: React, Node.js</p>
+        </div>
+        <!-- Add more project divs as needed -->
+    </div>
+</body>
+</html>
+
